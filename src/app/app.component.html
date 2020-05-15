@@ -1,0 +1,22 @@
+<nav class="c-nav">
+  <span class="c-brand">Component Builder</span>
+  <div class="wrapper">
+    <div class="scrollbar" #nav>
+      <div class="nav prev" (click)="prev(nav, $event)">&#x02190;</div>
+      <div class="content">
+        <ul>
+          <li role="button" [class.active]="active?.name === c.name" *ngFor="let c of components;" (click)="activateCompo(c)">
+            {{c.name}}
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav next" (click)="next(nav, $event)">&#x02192;</div>
+    </div>
+
+  </div>
+
+</nav>
+
+<main #content class="c-content">
+</main>
