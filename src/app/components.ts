@@ -1,13 +1,11 @@
 import { Type } from '@angular/core';
 import { Test2Component } from './test2/test2.component';
-import { ChecklistQuestionsComponent } from './checklist-questions/checklist-questions.component';
-import { ChecklistListComponent } from './checklist-list/checklist-list.component';
 import { getComponentTag } from './utils';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 const components: EjectedComponents = [
-  Test2Component,
-  ['pop-checklist-list', ChecklistListComponent],
-  ['pop-checklist-questions', ChecklistQuestionsComponent]
+  ['welcome-page', WelcomeComponent],
+  Test2Component
 ];
 
 Object.defineProperty(components, 'getData', {

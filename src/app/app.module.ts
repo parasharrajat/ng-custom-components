@@ -6,11 +6,13 @@ import { createCustomElement } from '@angular/elements';
 import components from './components';
 import { AppComponent } from './app.component';
 import { Test2Component } from './test2/test2.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Test2Component,
+    WelcomeComponent,
   ],
   imports: [
     CommonModule,

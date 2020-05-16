@@ -1,13 +1,16 @@
+
+![Overview](./localhost_4200_.png)
+
 ## Features
 
 + Works with Angular 9+.
 + Fully setuped.
-+ Automatic Tag creation based on component selection and custom tag support.
- 
++ Automatic Tag creation based on component selector and custom tag support.
+
 ## TODO
 
  - [ ] Scehematics Support
- 
+
 ## Build
 
 * Create components with `ng` cli.
